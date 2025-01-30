@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: beige;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px bisque;
+}
+
+h {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: justify;
+    color: black;
+}
+
+a {
+    color: aqua;
+}
+
+.bmi-form {
+    margin-top: 20px;
+    padding: 15px;
+    background: azure;
+    border: 1px solid bisque;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+}
+
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button#hitungBMI {
+    background-color: aliceblue;
+    border: 1px solid beige;
+    border-radius: 5px;
+    color: black;
+}
+
+button[type="reset"] {
+    background-color: aliceblue;
+    color: black;
+    /* border: 5px solid #5e5e5e00; 
+    border-radius: 2px */
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.bmi-result {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    border-radius: px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px white;
+}
+
+.bmi-result strong {
+    color: aqua;
+}
+
+.bmi-result .actions {
+    margin-top: 20px;
+}
+
+.bmi-result .actions a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background: greenyellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.bmi-result .actions a:hover {
+    background: 218838;
+}
+
+.info-section {
+    margin-top: 30px;
+    padding: 15px;
+    background: bisque;
+    color: black;
+    border: 1px;
+    border-radius: 8px;
+}
